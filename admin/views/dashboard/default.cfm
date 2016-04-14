@@ -52,27 +52,33 @@
 		<cfset started=true>
 		</cfif>
 		<div id="sessions7DaysContainer" <cfif started> class="divide"</cfif>>
-			<h2>Sessions Last 7 Days</h2>
+			<h2>Sessions</h2>
+			<em>Last 7 Days</em>
 			<div id="sessions7Days"></div>
 		</div>
 		<div id="topPages7DaysContainer"<cfif started> class="divide"</cfif>>
-			<h2>Top Pages 7 Days</h2>
+			<h2>Top Pages</h2>
+			<em>Last 7 Days</em>
 			<div id="topPages7Days"></div>
 		</div>
 		<div id="topLandingPages7DaysContainer"<cfif started> class="divide"</cfif>>
-			<h2>Top Landing Pages 7 Days</h2>
+			<h2>Top Landing Pages</h2>
+			<em>Last 7 Days</em>
 			<div id="topLandingPages7Days"></div>
 		</div>
 		<div id="topExitPages7DaysContainer"<cfif started> class="divide"</cfif>>
-			<h2>Top Exit Pages 7 Days</h2>
+			<h2>Top Exit Pages</h2>
+			<em>Last 7 Days</em>
 			<div id="topExitPages7Days"></div>
 		</div>
 		<div id="topTrafficSourceContainer"<cfif started> class="divide"</cfif>>
 			<h2>Top Traffic Source</h2>
+			<em>Last 30 Days</em>
 			<div id="topTrafficSource"></div>
 		</div>
 		<div id="topTrafficChannelsContainer"<cfif started> class="divide"</cfif>>
 			<h2>Top Traffic Channels</h2>
+			<em>Last 30 Days</em>
 			<div id="topTrafficChannels"></div>
 		</div>
 		</cfif>

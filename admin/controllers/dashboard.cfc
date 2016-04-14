@@ -101,6 +101,7 @@ component persistent='false' accessors='true' output='false' extends='controller
 			);
 			local.topTrafficSource = pageSessionsTable(
 				dataHeader='Traffic Source',
+				dataValue='Sessions',
 				tableDivName='topTrafficSource',
 				startDate='30daysAgo',
 				metrics='ga:sessions',
@@ -111,11 +112,11 @@ component persistent='false' accessors='true' output='false' extends='controller
 			);
 			local.topTrafficChannels = pageSessionsTable(
 				dataHeader='Traffic Channels',
-				dataValue='Organic Search/AdClicks',
+				dataValue='Sessions',
 				tableDivName='topTrafficChannels',
 				startDate='30daysAgo',
-				metrics='ga:organicSearches,ga:adClicks,ga:pageviewsPerSession',
-				dimensions='ga:source',
+				metrics='ga:sessions',
+				dimensions='ga:channelGrouping',
 				maxResults='5',
 				rc=rc,
 				links=false
